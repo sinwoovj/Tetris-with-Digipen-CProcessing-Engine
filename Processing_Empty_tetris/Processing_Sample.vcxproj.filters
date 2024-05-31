@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="game.c" />
+    <ClCompile Include="logic.c" />
+    <ClCompile Include="mainmenu.c" />
+    <ClCompile Include="setting.c" />
+    <ClCompile Include="color.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="logic.h" />
+    <ClInclude Include="mainmenu.h" />
+    <ClInclude Include="setting.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="리소스 폴더">
+      <UniqueIdentifier>{92d2a6b9-d8a8-4229-bea6-0cb1ac1379f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Tetris.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Processing_Sample.rc" />
+  </ItemGroup>
+</Project>
