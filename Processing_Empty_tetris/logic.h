@@ -19,6 +19,7 @@ struct Vector2 {
 struct Block {
 	KindOfBlock kindOfBlock;
 	int b_num;
+	int name;
 	int shape;
 	// This value will be changed
 	//Vector2 c00;
@@ -33,5 +34,6 @@ struct Block {
 }typedef Block;
 
 Block Get_Block(int num);
-
-void BlockProcess(void);
+void BlockInit(Block* block_list);
+void SubtractList(Block* block_list);
+void BlockReFill(Block* block_list);
